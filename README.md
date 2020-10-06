@@ -1,7 +1,7 @@
 An E-commerce WebPage consists of two pages: Dashboard and Courses.
 This project is using create-react-app.
-![Screenshot](img1.png)
-![Screenshot](img2.png)
+![Screenshot](img1.PNG)
+![Screenshot](img2.PNG)
 ## Available Scripts
 
 In the project directory, you can run:
