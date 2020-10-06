@@ -1,0 +1,36 @@
+/* navbar */
+.nav-dark{
+    height: 50px;
+    text-align: center;
+    background-color: purple;
+    color: rgb(250, 239, 250);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+  }
+  .nav-heading{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .nav-heading span{
+    margin: 5px;
+  }
+   .nav-dark input{
+     background: none;
+     border: none;
+     height: 30px;
+     width: 300px;
+     outline: none;
+     color:rgb(250, 239, 250) ;
+   }
+  .searchbar{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(146, 105, 146);
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+  }
+  .utils span{
+    margin: 0 10px 0 10px;
+  }

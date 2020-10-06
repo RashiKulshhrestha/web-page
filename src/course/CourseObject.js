@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 
 const courses = [
     {
@@ -31,22 +30,5 @@ const courses = [
         name:"Introduction to C++",
         link:"https://en.wikipedia.org/wiki/C%2B%2B"
     }
-]
-
-class Courses extends Component{
-    render(){
-        return(
-            <div className="course-wrapper">
-                {courses.map((course) =>(
-                    <div className="course-card">
-                        <img src={course.img} alt={course.name}/>
-                        <div><a href={course.link}>{course.name}</a></div>
-                    </div>
-                    )
-                )}
-            </div>
-        )
-    }
-};
-
-export default Courses;
+];
+export default courses;
