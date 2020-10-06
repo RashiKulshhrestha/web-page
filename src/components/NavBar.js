@@ -5,7 +5,7 @@ class NavBar extends Component{
         return(
             <Fragment>
                 <nav className="nav-dark">
-                    <div>
+                    <div className="nav-heading">
                         <span><i className="fas fa-book"/></span>
                         <span>Courseplus</span>
                     </div>
